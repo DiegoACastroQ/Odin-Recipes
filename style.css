@@ -1,0 +1,62 @@
+/* header disign */
+header{
+    background-color: rgb(190, 33, 33);
+    color: white;
+    padding: 15px 20px;
+}
+.Main-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.Invisible{
+    visibility: hidden;
+    pointer-events: none;
+}
+h1{
+    margin: 0;
+    
+}
+.Homepage{
+    color: white;
+    text-decoration: none;
+}
+.Homepage:visited{
+    color: white;
+    text-decoration: none;
+}
+/*main disign */
+body{
+    margin: 0;
+    background-color: rgb(212, 153, 104);
+}
+.Right-Photo{
+    height: 400px;
+   float: right;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-bottom-right-radius: 30px;
+}
+.Recipe-container{
+    background-color: beige;
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+    margin: 0 40px 40px 40px;
+    overflow: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Linea{
+    background-color: beige;
+    width: auto;
+    padding: 10px;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
