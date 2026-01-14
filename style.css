@@ -60,3 +60,54 @@ h2{
     margin-bottom: 10px;
     font-size: 40px;
 }
+.Index-Container{
+    background-color: beige;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 20px 40px;
+    overflow:hidden;
+}
+/* Gallery disign */
+.Gallery{
+    display:flex;
+    list-style: none;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: -10px;
+    gap: 20px;
+}
+.Card{
+    background-color: beige;
+    padding:10px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding:0;
+    text-decoration: none;
+}
+.Card img{
+height:400px;
+width: 250px;
+object-fit: cover;
+display: block;
+}
+.Card span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding:12px 0;
+    color: white;
+    font-weight: bold;
+
+}
+.Card:hover{
+transform: translateY(-10px);
+box-shadow: rgba(0,0,0,0.2);
+
+}
